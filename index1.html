@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>Cadastro de Produtos</h1>
+    
+    <form id="produto-form">
+        <div class="form-campo">
+            <label for="codigo">Código do Produto</label>
+            <input type="text" id="codigo" name="codigo" placeholder="Código do produto">
+            <small></small>
+        </div>
+
+        <div class="form-campo">
+            <label for="marca">Marca</label>
+            <input type="text" id="marca" name="marca" placeholder="Marca do produto">
+            <small></small>
+        </div>
+
+        <div class="form-campo">
+            <label for="tipo">Tipo</label>
+            <input type="text" id="tipo" name="tipo" placeholder="Tipo do produto">
+            <small></small>
+        </div>
+
+        <div class="form-campo">
+            <label for="categoria">Categoria</label>
+            <input type="text" id="categoria" name="categoria" placeholder="Categoria do produto">
+            <small></small>
+        </div>
+
+        <div class="form-campo">
+            <label for="preco">Preço Unitário</label>
+            <input type="text" id="preco" name="preco" placeholder="Preço unitário">
+            <small></small>
+        </div>
+
+        <div class="form-campo">
+            <label for="custo">Custo</label>
+            <input type="text" id="custo" name="custo" placeholder="Custo">
+            <small></small>
+        </div>
+
+        <div class="form-campo">
+            <label for="obs">Observações</label>
+            <textarea id="obs" name="obs" placeholder="Digite observações"></textarea>
+            <small></small>
+        </div>
+
+        <div class="form-botoes">
+            <button type="submit">Enviar</button>
+            <button type="button" id="limpar">Limpar</button>
+        </div>
+    </form>
+
+    <h2>Lista de Produtos</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Marca</th>
+                <th>Tipo</th>
+                <th>Categoria</th>
+                <th>Preço</th>
+                <th>Custo</th>
+                <th>Observações</th>
+            </tr>
+        </thead>
+        <tbody id="tabela-produtos"></tbody>
+    </table>
+
+    <script src="script1.js"></script>
+</body>
+</html>

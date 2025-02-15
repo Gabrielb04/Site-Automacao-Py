@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Altura reduzida em 10% */
+    background-color: #f5f5f5; /* Cor de fundo */
+}
+
+.container {
+    width: 81%; /* 10% a menos que 90% */
+    max-width: 450px; /* Largura máxima reduzida em 10% */
+    background-color: #fff; /* Fundo branco para o container */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 18px; /* Padding reduzido em 10% */
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1); /* Sombra ajustada */
+}
+
+h1 {
+    font-size: 21.6px; /* 10% a menos que 24px */
+    margin-bottom: 9px; /* Espaçamento ajustado */
+}
+
+label {
+    font-size: 14.4px; /* 10% a menos que 16px */
+    margin-top: 9px; /* Ajustado para 10% a menos */
+}
+
+input {
+    width: 100%; /* Largura total do input */
+    padding: 9px; /* Espaçamento interno reduzido em 10% */
+    margin: 4.5px 0; /* Espaçamento vertical ajustado */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 4px; /* Borda arredondada */
+}
+
+button {
+    width: 100%; /* Largura total do botão */
+    padding: 9px; /* Padding reduzido em 10% */
+    background-color: #007BFF; /* Cor do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+}

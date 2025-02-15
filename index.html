@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Automação Python </title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            font-size: 3.0em; /* 20% maior que 2.8em */
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 1.44em; /* 20% maior que 1.2em */
+        }
+        .form-group {
+            margin-bottom: 15px;
+            width: 360px; /* 20% maior que 300px */
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 12px; /* 20% maior que 10px */
+            margin: 5px 0;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            font-size: 1.2em; /* Aumentando a fonte dos inputs */
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 18px; /* 20% maior que 10px 15px */
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em; /* 20% maior que 1em */
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sistema Automação Python</h1>
+    <p>Faça seu Login para acessar</p>
+    
+    <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="text" id="email" placeholder="Seu e-mail de login">
+    </div>
+    
+    <div class="form-group">
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Sua senha">
+    </div>
+    
+    <button onclick="login()">Logar</button>
+
+    <script>
+        function login() {
+            // Redireciona para index1.html ao clicar no botão "Logar"
+            window.location.href = 'index1.html';
+        }
+    </script>
+</body>
+</html>
